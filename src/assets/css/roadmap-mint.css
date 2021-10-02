@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@300;400&display=swap');
+
+/* roadmap css */
+
+
+.pointz-num{
+    text-shadow: none;
+    font-size: 3rem;
+}
+.pointz-des{
+    text-shadow: none;
+    font-size: 1rem;
+}
+
+.roadmap-text{
+    font-size: 5rem;
+    margin: 1rem;
+    margin-left: 6rem;
+    line-height: 7rem;
+    color: #fff;
+    font-weight: 900;
+    font-family: Times New Roman;
+}
+
+
+.vline{
+    height: 50px;
+    width: 2px;
+    background-color: #aaa;
+    margin: 3rem 0px;
+}
+
+/* mint css */
+
+.mint-head {
+    color: #fff !important;
+    font-weight: 900;
+    font-family: 'Times New Roman';
+    font-size: 2.5rem;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.mint-title{
+    color: #5d636f;
+    font-weight: 900;
+    font-family: 'Times New Roman';
+    line-height: 25px;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 100px;
+    
+}
+
+.card-mint{
+    width: 500px;
+    margin-left: 15rem;
+}
+
+.btn-mint{
+    margin: 2rem;
+}
+
+.price-h{
+    font-size: 2rem;
+    text-align: end;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 15px;
+    text-transform: none !important;
+    font-family: Migra,Times New Roman,Times,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-weight: 900;
+    text-shadow: none;
+}
+
+.red-price{
+    color: red !important;
+    text-shadow: none;
+    
+}
+.price-n{
+    color: #fff !important;
+    font-family: Migra,Times New Roman,Times,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-size: 3rem;
+    text-align: end;
+    margin-right: 15px;
+    text-transform: none;
+}
+
+/* form input */
+
+.form-div{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #5d636f;
+    background: #232323;
+}
+
+.onum{
+    background: none;
+    border: none;
+    color: #fff;
+    padding-left: 15px;
+    width: 75%;
+}
+
+.omax{
+    font-size: 18px; 
+    color: #797272;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-shadow: none;
+    text-align: end;
+}
+
+.hline {
+    height: 2px;
+    width: 100%;
+    background: #454b5a;
+    margin: 20px 0;
+}
+
+.ta-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalh{
+    font-size: 1.6rem;
+    color: #d9d7d7;
+}
+
+.totala {
+    font-size: 1.8rem;
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    color: #fff !important;
+}
+
+.btn-mint {
+    height: 45px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+
+
+
