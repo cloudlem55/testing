@@ -346,7 +346,7 @@ export default function ProfilePage() {
         <Container>
           <Row>
           
-            <Col md="7">
+            <Col md="7 order-2 order-lg-0">
               <Row>
                 <Col sm="2">
                   <span class='pointz-num'>1</span>
