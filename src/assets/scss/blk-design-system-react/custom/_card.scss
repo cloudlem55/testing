@@ -1,3 +1,9 @@
+
+.card.card-coin .card-header{
+  margin-left: 2px  !important;
+
+}
+
 .card {
     background: $card-black-background;
     border: 0;
@@ -5,6 +11,7 @@
     width: 100%;
     margin-bottom: 30px;
     box-shadow: $box-shadow;
+    margin-left: 2px !important;
 
 
     label {
@@ -17,13 +24,14 @@
 
     .card-body {
       padding: 15px;
-
+      margin-left: 2px;
       &.table-full-width {
         padding-left: 0;
         padding-right: 0;
       }
 
       .card-title {
+        margin-left: 2px  !important;
         color: $white;
         text-transform: inherit;
         font-weight: $font-weight-light;
@@ -37,13 +45,14 @@
     }
 
     .card-header {
+      margin-left: 2px;
       &:not([data-background-color]) {
         background-color: transparent;
       }
       padding: 15px 15px 0;
       border: 0;
       color: rgba($white,0.8);
-
+        
       .card-title{
           color: $white;
           font-weight: 100;

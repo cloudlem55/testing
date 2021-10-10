@@ -1,0 +1,58 @@
+.rf-card-row {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .rf-card-desktop {
+      display: none;
+    }
+    #fw{
+     
+    position: relative;
+    }
+    .rf-card-row {
+      display: flex;
+    }
+  }
+  @media (max-width: 480px) {
+    .rf-card-row {
+      display: block;
+    }
+    .mint-title {
+        color: #5d636f;
+        font-weight: 900;
+        font-family: "Times New Roman";
+        /* line-height: 25px; */
+        font-size: 1.5rem;
+        margin-left: 20px;
+        margin-right: 1px;
+        margin-top: 60px;
+        /* margin-right: 100px; */
+    }
+    #fw {
+        left: -119px;
+        position: relative;
+        top: 25p;
+        top: 60px;
+    }
+    
+    .rf-card-imgbx {
+      text-align: center;
+    }
+  }
+  @media (max-width: 320px) {
+    .rf-card-row {
+      display: block;
+    }
+    #fw{
+        left: -119px;
+        position: relative;
+        top: 25p;
+        top: 60px;
+    }
+    
+    .rf-card-imgbx {
+      text-align: center;
+    }
+  }
+  

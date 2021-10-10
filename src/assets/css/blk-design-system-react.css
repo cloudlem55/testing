@@ -1652,13 +1652,16 @@ textarea.form-control {
   color: #ffffff;
   background-color: rgba(0, 242, 195, 0.9);
   border-radius: 0.25rem; }
-
+  .section{
+    background-image: url("m.jpg")
+  }
 .was-validated :valid ~ .valid-feedback,
 .was-validated :valid ~ .valid-tooltip,
 .is-valid ~ .valid-feedback,
 .is-valid ~ .valid-tooltip {
   display: block; }
 
+ 
 .was-validated .form-control:valid, .form-control.is-valid {
   border-color: #00f2c3;
   padding-right: 2.25rem;
@@ -14578,7 +14581,7 @@ Copyright (c) 2015 Daniel Eden
   vertical-align: middle;
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png");
+  background: url("f.jpg");
   background-position: center center;
   background-size: cover; }
 
@@ -16645,7 +16648,7 @@ td.rdtYear:hover {
     transition: all 0.25s ease-out; }
 
 .custom-switch .custom-control-input:checked ~ .custom-control-label::before {
-  background-image: url("../../../../assets/img/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png"); }
+  background-image: url("f.jpg"); }
 
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
   background-color: #ffffff;

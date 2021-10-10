@@ -40,18 +40,18 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink to="/" tag={Link}>
+                <NavLink to="/profile-page" tag={Link}>
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/landing-page" tag={Link}>
-                  Landing
+                <NavLink to="/profile-page" tag={Link}>
+                  Mint
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/register-page" tag={Link}>
-                  Register
+                <NavLink to="/profile-page" tag={Link}>
+                  Roadmap
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -86,7 +86,6 @@ export default function Footer() {
             </Nav>
           </Col>
           <Col md="3">
-            <h3 className="title">Follow us:</h3>
             <div className="btn-wrapper profile">
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
@@ -97,9 +96,10 @@ export default function Footer() {
               >
                 <i className="fab fa-twitter" />
               </Button>
-              <UncontrolledTooltip delay={0} target="tooltip622135962">
-                Follow us
-              </UncontrolledTooltip>
+              <UncontrolledTooltip
+                delay={0}
+                target="tooltip622135962"
+              ></UncontrolledTooltip>
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
@@ -121,9 +121,10 @@ export default function Footer() {
               >
                 <i className="fab fa-dribbble" />
               </Button>
-              <UncontrolledTooltip delay={0} target="tooltip318450378">
-                Follow us
-              </UncontrolledTooltip>
+              <UncontrolledTooltip
+                delay={0}
+                target="tooltip318450378"
+              ></UncontrolledTooltip>
             </div>
           </Col>
         </Row>

@@ -114,7 +114,7 @@ export default function ProfilePage() {
   <em>S</em>
   <em>M</em>
   <em class="planet right">O</em>
-  <em>S</em>
+  <em>S</em>dddd
 </h2>
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <h3> Alien space <span> Club </span> </h3>

@@ -41,7 +41,7 @@ export default function ExamplesNavbar() {
     return function cleanup() {
       window.removeEventListener("scroll", changeColor);
     };
-  },[]);
+  }, []);
   const changeColor = () => {
     if (
       document.documentElement.scrollTop > 99 ||
@@ -69,13 +69,6 @@ export default function ExamplesNavbar() {
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand to="/" id="navbar-brand" tag={Link}>
-            <span>Kosmos• </span>
-            Alien Space Club
-          </NavbarBrand>
-          <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Creative Tim
-          </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
             className="navbar-toggler navbar-toggler"
@@ -85,6 +78,13 @@ export default function ExamplesNavbar() {
             <span className="navbar-toggler-bar bar2" />
             <span className="navbar-toggler-bar bar3" />
           </button>
+          <NavbarBrand to="/" id="navbar-brand" tag={Link}>
+            <span>Kosmos• </span>
+            Alien Space Club
+          </NavbarBrand>
+          <UncontrolledTooltip placement="bottom" target="navbar-brand">
+            Designed and Coded by Creative Tim
+          </UncontrolledTooltip>
         </div>
         <Collapse
           className={"justify-content-end " + collapseOut}
@@ -165,7 +165,7 @@ export default function ExamplesNavbar() {
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
-               Roadmap
+                Roadmap
               </NavLink>
             </NavItem>
           </Nav>

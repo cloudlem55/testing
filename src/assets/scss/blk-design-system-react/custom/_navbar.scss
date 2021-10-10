@@ -21,7 +21,7 @@
       position: relative;
       color: inherit;
       line-height: 20px;
-      display: inline-flex;
+    
       &:hover{
         color: $opacity-8;
       }
@@ -104,7 +104,7 @@
   }
 
   &.bg-info {
-    background-color: $info !important;
+    background-color: #49494a !important;
   }
 
   &.bg-success {
@@ -433,8 +433,8 @@
     position: absolute;
     width: calc(100% - 1.4rem);
     height: auto !important;
-    left: 0;
-    top: 0;
+    left: -16px;
+    top: -12px;
     margin: 0.7rem;
     background: $card-black-background;
     border-radius: $border-radius-sm;
