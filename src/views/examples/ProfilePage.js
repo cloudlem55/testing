@@ -16,7 +16,7 @@
 
 */
 import React from 'react'
-
+import Fade from 'react-reveal/Fade';
 import { fadeIn } from 'react-animations'
 import classnames from 'classnames'
 // javascript plugin used to create scrollbars on windows
@@ -56,19 +56,23 @@ import Footer from 'components/Footer/Footer.js'
 
 const carouselItems = [
   {
-    src: require('assets/img/denys.jpg').default,
+    src: require('assets/img/39.jpg').default,
     altText: 'Slide 1',
-    caption: 'Big City Life, United States'
   },
   {
-    src: require('assets/img/fabien-bazanegue.jpg').default,
+    src: require('assets/img/49.jpg').default,
     altText: 'Slide 2',
-    caption: 'Somewhere Beyond, United States'
+    
   },
   {
-    src: require('assets/img/mark-finn.jpg').default,
+    src: require('assets/img/64.jpg').default,
     altText: 'Slide 3',
-    caption: 'Stocks, United States'
+
+  },
+  {
+    src: require('assets/img/24.jpg').default,
+    altText: 'Slide 3',
+
   }
 ]
 
@@ -126,9 +130,7 @@ export default function ProfilePage() {
                 </h1>
                 <h5 className='text-on-back'>01</h5>
 
-                <br></br>
-                <br></br>
-                <br></br>
+              
                 <p className='profile-description'>
                   Kozmos Alien is a collection of 8,888 aliens with lightspeed
                   hyperspace technology. Each one is equipped with armor,
@@ -140,7 +142,7 @@ export default function ProfilePage() {
                   <Button
                     className='btn-icon btn-round'
                     color='twitter'
-                    href='https://twitter.com/creativetim'
+                    href='https://twitter.com/KozmoAliens'
                     id='tooltip639225725'
                     target='_blank'
                   >
@@ -152,7 +154,7 @@ export default function ProfilePage() {
                   <Button
                     className='btn-icon btn-round'
                     color='facebook'
-                    href='https://www.facebook.com/creativetim'
+                    href=''
                     id='tooltip982846143'
                     target='_blank'
                   >
@@ -164,14 +166,14 @@ export default function ProfilePage() {
                   <Button
                     className='btn-icon btn-round'
                     color='dribbble'
-                    href='https://dribbble.com/creativetim'
+                    href='https://discord.gg/BUWUC7gQ'
                     id='tooltip951161185'
                     target='_blank'
                   >
                     <i className='fab fa-discord' />
                   </Button>
                   <UncontrolledTooltip delay={0} target='tooltip951161185'>
-                    Follow us
+                    Join our Discord
                   </UncontrolledTooltip>
                 </div>
               </Col>
@@ -202,23 +204,16 @@ export default function ProfilePage() {
                   one like another. Each Alien is randomly generated with its
                   own characteristics and expressions
                 </p>
-                <div className='btn-wrapper pt-3 d-inline-block'>
-                  <Button
-                    className='btn-simple'
-                    color='primary'
-                    href='#pablo'
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className='tim-icons icon-book-bookmark' /> Bookmark
-                  </Button>
+                <div className='btn-wrapper pt-3 d-inline-block'> <br/>
                   <Button
                     className='btn-simple'
                     color='info'
-                    href='#pablo'
+                    href='https://discord.gg/BUWUC7gQ'
                     onClick={e => e.preventDefault()}
-                  >
-                    <i className='tim-icons icon-bulb-63' /> Check it!
+                  > 
+                    <i className='fab fa-discord' /> Join The Communitiy 
                   </Button>
+              
                 </div>
               </Col>
             </Row>
@@ -228,12 +223,14 @@ export default function ProfilePage() {
         <section className='section'>
           <Container>
             <Row>
+            <Fade left>
               <Col lg='6' className='d-flex justify-content-center  text-left'>
-                <div id="j" style={{marginleft:"20px"}}>
+                <div id="j" style={{marginleft:"10px"}}>
                   <div class='neon'>Join The</div>
                   <div class='flux'>Kosmos</div>
                 </div>
               </Col>
+              </Fade>
 
               <Col className='ml-auto mr-auto card-mint' lg='6'>
                 <Card
@@ -241,7 +238,7 @@ export default function ProfilePage() {
                   style={{ background: '#9e7599' }}
                 >
                   <CardHeader>
-                    <h4 className='mint-head'>Count you count</h4>
+                    <h4 className='mint-head'>Count your Aliens</h4>
                     <h4 className='mint-title'>
                       Enter the Amount of Aliens You would like to buy
                     </h4>
@@ -317,145 +314,191 @@ export default function ProfilePage() {
         </section>
 
         <section className='section' id='crap-roadmap'>
+          
           <Container>
+            
             <Row>
+              
+           
               <Col md='7 order-2 order-lg-0'>
+              
                 <Row>
                   <Col sm='2'>
-                    <span class='pointz-num'>1</span>
+                    <span class='pointz-num'>Phase 1</span>
                   </Col>
+                  <Fade left>
                   <Col sm='10'>
                     <span class='pointz-des'>
-                      Doggo ipsum long bois lotsa pats blep. What a nice floof
-                      ruff super chub very good spot, the neighborhood pupper
-                      lotsa pats. Borkdrive shibe shoober what a nice floof,
-                      borking doggo.
+                    <strong>The Galaxy is created </strong> <br/><br/>
+                    The private discord channel will be available exclusively for Kozmo Alien  owners.
+
+                    <strong>  🌟  Dj $pace  🌟  </strong> <br/><br/><br/><br/>
+             DJ $pace joins the kozmos. and transmits his music to earth. Live streamed sets every week. <br/><br/>
+
+             <strong>    🚀 Terraforming 🚀</strong><br/><br/>
+ Members can choose which galaxy they belong too. The 3 galaxies; Milky Way, Andromeda, and
+  Triangulum galaxies are all rivals. Which side will you join? <br/><br/>
+
+Members may access 1 galaxy via the #galaxies_2000 terminal in Discord.            
+     Members of Galaxies will be able to participate in games, giveaways ,  
+     Solve mysteries  and  invade other galaxies to earn  more $Space token. 
+
                     </span>
                   </Col>
+                  </Fade>
                 </Row>
 
                 <div class='vline'></div>
 
                 <Row>
                   <Col sm='2'>
-                    <span class='pointz-num'>2</span>
+                    <span class='pointz-num'>Phase 2</span>
                   </Col>
+                  <Fade left>
                   <Col sm='10'>
+                 
                     <span class='pointz-des'>
-                      Shoober shooberino adorable doggo many pats, heckin good
-                      boys many pats pupper wrinkler, corgo maximum borkdrive. A
-                      frighten puggo wow very biscit.
+                  <strong>  $Space Token </strong>
+                  An ERC20 utility token that will be freely tradable on Uniswap & These tokens allow you to rename and upgrade
+                  your
+                   aliens and write their own backstory, stored in the metadata on the blockchain.<br/><br/>
+In the future you will be able to use these tokens to invade other galaxies and upgrade your spaceship and kozmo alien.
+Every Kozmo gains 10 $Space per day, which can be claimable by paying gas. 
+
                     </span>
+                   
                   </Col>
+                  </Fade>
                 </Row>
 
                 <div class='vline'></div>
 
                 <Row>
                   <Col sm='2'>
-                    <span class='pointz-num'>3</span>
+                    <span class='pointz-num'>Phase 3</span>
                   </Col>
+                <Fade left>
+
                   <Col sm='10'>
-                    <span class='pointz-des'>
-                      Big ol h*ck adorable doggo vvv smol borking doggo with a
-                      long snoot for pats big ol, he made many woofs doing me a
-                      frighten puggo wow very biscit, ruff fat boi ruff long
-                      doggo.
+                    <span class='pointz-des'><strong> Merch drop</strong> <br/><br/>
+                    The Shoppy Planet  is now open.
+Get decked out in an exclusive selection  of Kozmo Alien  merch.
+Get a unique gift from the universe.
+Kozmo  owners with a selected trait (to be revealed) will receive free merch!     
+                    
                     </span>
                   </Col>
+                  </Fade>
                 </Row>
 
                 <div class='vline'></div>
 
                 <Row>
                   <Col sm='2'>
-                    <span class='pointz-num'>4</span>
+                    <span class='pointz-num'>Phase 4</span>
                   </Col>
+                  <Fade left>
                   <Col sm='10'>
                     <span class='pointz-des'>
-                      Long bois mlem I am bekom fat wrinkler puggo maximum
-                      borkdrive big ol pupper I am bekom fat, fluffer vvv
-                      adorable doggo lotsa pats snoot. I am bekom fat ur givin
-                      me a spook length boy wow very biscit very good spot.
+                    <strong>Kosmo SpaceShip </strong> <br/><br/>
+
+                    Kozmo space holders will be able to mint their exclusive 1/1 spaceship. 
+                    Later you will be able to use this ship to invade other galaxies 
+                    in an exclusive PVP play to earn game with community prizes.   
                     </span>
                   </Col>
+                  </Fade>
                 </Row>
 
                 <div class='vline'></div>
 
                 <Row>
                   <Col sm='2'>
-                    <span class='pointz-num'>5</span>
+                    <span class='pointz-num'>Phase 5</span>
                   </Col>
+                  <Fade left>
                   <Col sm='10'>
                     <span class='pointz-des'>
-                      Dogi ipsum long bois lotsa pats blep. What a nice floof
-                      ruff super chub very good spot, the neighborhood pupper
-                      lotsa pats. Borkdrive shibe shoober what a nice floof,
-                      borking doggo.
+                    <strong>Space Wars Begin</strong><br/><br/>
+                    An exclusive play to earn PVP game will be launched allowing Kozmo Alien
+                     holders to battle and invade other galaxies and earn more space token. 
                     </span>
                   </Col>
+                  </Fade>
                 </Row>
+             
               </Col>
-
+            
               <Col md='5'>
+                
                 <h1 className='roadmap-text'>Roadmap Activations</h1>
               </Col>
+             
             </Row>
           </Container>
         </section>
-        <div class='container22'>
-          <div class='container'>
-            <h1 className='team-text'> The Team </h1>
-            <div class='team'>
-              <div class='member'>
-                <img
-                  src='https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
-                  alt='member_image'
-                />
-                <h4>John Doe</h4>
-                <span>doe@gmail.com</span>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.amet
-                  consecteturamet consecteturamet Laboriosam voluptatum fuga
-                  iure. Est, dicta voluptatum.
-                </p>
-                <div class='btn'>
-                  <a href='#'>follow</a>
-                </div>
-              </div>
-              <div class='member'>
-                <img src='https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80' />
-                <h4>John Doe</h4>
-                <span>doe@gmail.com</span>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.amet
-                  consecteturamet consecteturamet Laboriosam voluptatum fuga
-                  iure. Est, dicta voluptatum.
-                </p>
-                <div class='btn'>
-                  <a href='#'>follow</a>
-                </div>
-              </div>
-              <div class='member'>
-                <img src='https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' />
-
-                <h4>John Doe</h4>
-
-                <span>doe@gmail.com</span>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.amet
-                  consecteturamet consecteturamet Laboriosam voluptatum fuga
-                  iure. Est, dicta voluptatum.
-                </p>
-                <div class='btn'>
-                  <a href='#'>follow</a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <section id="n">
+        <section id="n" class="speakers-section" style= {{backgroundImage: `url("https://i.ibb.co/92HJxz2/team-bg.jpg")`}}>
+        <div class="parallax-scene parallax-scene-2 anim-icons">
+            <span data-depth="0.40" class="parallax-layer icon icon-circle-5"></span>
+            <span data-depth="0.99" class="parallax-layer icon icon-circle-5"></span>
         </div>
 
+        <div class="container">
+            <div class="sec-title light text-center">
+               <h1> <span class="title">Our Team</span> </h1>
+                <h6>Meet the Team</h6>
+            </div>
+
+            <div class="row">
+          
+                <div class="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><img src="https://gateway.pinata.cloud/ipfs/QmU6hxsav4NGAgNLBBtMLZnonbm8JjpY3Y3As79HdAWr5n/49.jpg" alt=""/>
+                              
+                            </figure>
+                        </div>
+                        <div class="caption-box">
+                            <h4 class="name"><a href="#">Leon  </a></h4>
+                            <span class="designation">Supreme Commander </span>
+                        </div>
+                    </div>
+                </div>
+
+           
+                <div class="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><img src="https://gateway.pinata.cloud/ipfs/QmfS1eJarJJ3VJA99P2YUGRJ1yx3WMhiydRhfLfFr5WGaE" alt=""/>
+                               
+                            </figure>
+                        </div>
+                        <div class="caption-box">
+                            <h4 class="name"><a href="#">Shahidaasy</a></h4>
+                            <span class="designation">Graphic Designer </span>
+                        </div>
+                    </div>
+                </div>
+
+         
+                <div class="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><img src="https://gateway.pinata.cloud/ipfs/QmU6hxsav4NGAgNLBBtMLZnonbm8JjpY3Y3As79HdAWr5n/22.jpg" alt=""/>
+                              
+                            </figure>
+                        </div>
+                        <div class="caption-box">
+                            <h4 class="name"><a href="#">TWA-D3 </a></h4>
+                            <span class="designation">Blockchain developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
         <Footer />
       </div>
     </>

@@ -35,7 +35,7 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">BLK•</h1>
+            <h1 className="title">Kosmo Aliens</h1>
           </Col>
           <Col md="3">
             <Nav>
@@ -64,17 +64,17 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
+                <NavLink href="https://twitter.com/KozmoAliens">
                   Contact Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
+                <NavLink href="https://twitter.com/KozmoAliens">
                   About Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
+                <NavLink href="https://twitter.com/KozmoAliens">
                   Blog
                 </NavLink>
               </NavItem>
@@ -90,7 +90,7 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://twitter.com/creativetim"
+                href="https://twitter.com/KozmoAliens"
                 id="tooltip622135962"
                 target="_blank"
               >
@@ -103,28 +103,17 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://www.facebook.com/creativetim"
+                href="https://discord.gg/BUWUC7gQ"
                 id="tooltip230450801"
                 target="_blank"
               >
-                <i className="fab fa-facebook-square" />
+                <i className="fab fa-discord" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip230450801">
                 Like us
               </UncontrolledTooltip>
-              <Button
-                className="btn-icon btn-neutral btn-round btn-simple"
-                color="default"
-                href="https://dribbble.com/creativetim"
-                id="tooltip318450378"
-                target="_blank"
-              >
-                <i className="fab fa-dribbble" />
-              </Button>
-              <UncontrolledTooltip
-                delay={0}
-                target="tooltip318450378"
-              ></UncontrolledTooltip>
+            
+            
             </div>
           </Col>
         </Row>

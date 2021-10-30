@@ -45,7 +45,7 @@ ReactDOM.render(
         path="/profile-page"
         render={(props) => <ProfilePage {...props} />}
       />
-      <Redirect from="/" to="/profile-page" />
+      <Redirect from="/" to="/profile-page" title="Kosmo Aliens" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")

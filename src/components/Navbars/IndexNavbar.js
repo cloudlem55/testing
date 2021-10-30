@@ -79,11 +79,11 @@ export default function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span>BLK• </span>
-            Design System React
+            <span>Kosmo </span>
+            Aliens Space Club
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Creative Tim
+            
           </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
@@ -106,7 +106,7 @@ export default function IndexNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                  KosmoAliensSpaceClub
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
@@ -124,7 +124,7 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim"
+                href="https://twitter.com/KozmoAliens"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Follow us on Twitter"
@@ -133,18 +133,7 @@ export default function IndexNavbar() {
                 <p className="d-lg-none d-xl-none">Twitter</p>
               </NavLink>
             </NavItem>
-            <NavItem className="p-0">
-              <NavLink
-                data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim"
-                rel="noopener noreferrer"
-                target="_blank"
-                title="Like us on Facebook"
-              >
-                <i className="fab fa-facebook-square" />
-                <p className="d-lg-none d-xl-none">Facebook</p>
-              </NavLink>
-            </NavItem>
+           
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
@@ -153,8 +142,8 @@ export default function IndexNavbar() {
                 target="_blank"
                 title="Follow us on Instagram"
               >
-                <i className="fab fa-instagram" />
-                <p className="d-lg-none d-xl-none">Instagram</p>
+                <i className="fab fa-discord" />
+                <p className="d-lg-none d-xl-none">Discord</p>
               </NavLink>
             </NavItem>
             <UncontrolledDropdown nav>
@@ -195,7 +184,7 @@ export default function IndexNavbar() {
                 target="_blank"
                 href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
               >
-                <i className="tim-icons icon-spaceship" /> Join the Cosmos !
+                <i className="tim-icons icon-spaceship" /> Join the Kosmos !
               </Button>
             </NavItem>
             <NavItem>

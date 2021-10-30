@@ -115,7 +115,7 @@ export default function ExamplesNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim"
+                href="https://twitter.com/KozmoAliens"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Follow us on Twitter"
@@ -124,28 +124,17 @@ export default function ExamplesNavbar() {
                 <p className="d-lg-none d-xl-none">Twitter</p>
               </NavLink>
             </NavItem>
+      
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim"
-                rel="noopener noreferrer"
-                target="_blank"
-                title="Like us on Facebook"
-              >
-                <i className="fab fa-facebook-square" />
-                <p className="d-lg-none d-xl-none">Facebook</p>
-              </NavLink>
-            </NavItem>
-            <NavItem className="p-0">
-              <NavLink
-                data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial"
+                href="https://discord.gg/BUWUC7gQ"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Follow us on Instagram"
               >
-                <i className="fab fa-instagram" />
-                <p className="d-lg-none d-xl-none">Instagram</p>
+                <i className="fab fa-discord" />
+                <p className="d-lg-none d-xl-none">Discord</p>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -158,13 +147,9 @@ export default function ExamplesNavbar() {
                 <i className="tim-icons icon-spaceship" /> Join the Cosmos
               </Button>
             </NavItem>
+           
             <NavItem>
-              <NavLink tag={Link} to="/">
-                FAQ
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
+              <NavLink href="#crap-roadmap">
                 Roadmap
               </NavLink>
             </NavItem>

@@ -423,9 +423,9 @@ export default function Navbars() {
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-instagram" />
-                      Instagram
+                    <NavLink href="https://discord.gg/BUWUC7gQ" onClick={(e) => e.preventDefault()}>
+                      <i className="fab fa-discord" />
+                      Discord
                     </NavLink>
                   </NavItem>
                 </Nav>
