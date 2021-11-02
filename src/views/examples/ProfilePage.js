@@ -223,7 +223,7 @@ export default function ProfilePage() {
            
               <Col lg='6' className='d-flex justify-content-center  text-left'>
                 <div id="j" style={{marginleft:"10px"}}>
-                  <div class='neon'>Join The</div>
+                  <div class='neon'>Join The</div> <br/><br/>
                   <div class='flux'>Kosmos</div>
                 </div>
               </Col>
@@ -452,8 +452,8 @@ Kozmo  owners with a selected trait (to be revealed) will receive free merch!
                 <div class="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="https://gateway.pinata.cloud/ipfs/QmU6hxsav4NGAgNLBBtMLZnonbm8JjpY3Y3As79HdAWr5n/49.jpg" alt=""/>
-                              
+                            <figure class="image"><img    src={require('assets/img/90.jpg').default}
+/>                              
                             </figure>
                         </div>
                         <div class="caption-box">
@@ -467,7 +467,7 @@ Kozmo  owners with a selected trait (to be revealed) will receive free merch!
                 <div class="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="https://gateway.pinata.cloud/ipfs/QmU6hxsav4NGAgNLBBtMLZnonbm8JjpY3Y3As79HdAWr5n/22.jpg" alt=""/>
+                            <figure class="image"><img    src={require('assets/img/64.jpg').default} />
                                
                             </figure>
                         </div>
@@ -482,7 +482,7 @@ Kozmo  owners with a selected trait (to be revealed) will receive free merch!
                 <div class="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="https://gateway.pinata.cloud/ipfs/QmU6hxsav4NGAgNLBBtMLZnonbm8JjpY3Y3As79HdAWr5n/22.jpg" alt=""/>
+                            <figure class="image"><img    src={require('assets/img/39.jpg').default} />
                               
                             </figure>
                         </div>
