@@ -75,7 +75,7 @@ export default function Footer() {
               </NavItem>
               <NavItem>
                 <NavLink href="https://twitter.com/KozmoAliens">
-                  Blog
+                  Twitter
                 </NavLink>
               </NavItem>
               <NavItem>

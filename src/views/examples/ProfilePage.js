@@ -132,10 +132,7 @@ export default function ProfilePage() {
 
               
                 <p className='profile-description'>
-                  Kozmos Alien is a collection of 8,888 aliens with lightspeed
-                  hyperspace technology. Each one is equipped with armor,
-                  weapons, masks, accessories, and special powers . Owning any
-                  one of our NFTs grants club membership.
+                git init
                 </p>
 
                 <div className='btn-wrapper profile pt-3'>
@@ -223,14 +220,14 @@ export default function ProfilePage() {
         <section className='section'>
           <Container>
             <Row>
-            <Fade left>
+           
               <Col lg='6' className='d-flex justify-content-center  text-left'>
                 <div id="j" style={{marginleft:"10px"}}>
                   <div class='neon'>Join The</div>
                   <div class='flux'>Kosmos</div>
                 </div>
               </Col>
-              </Fade>
+         
 
               <Col className='ml-auto mr-auto card-mint' lg='6'>
                 <Card
@@ -470,7 +467,7 @@ Kozmo  owners with a selected trait (to be revealed) will receive free merch!
                 <div class="speaker-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="https://gateway.pinata.cloud/ipfs/QmfS1eJarJJ3VJA99P2YUGRJ1yx3WMhiydRhfLfFr5WGaE" alt=""/>
+                            <figure class="image"><img src="https://gateway.pinata.cloud/ipfs/QmU6hxsav4NGAgNLBBtMLZnonbm8JjpY3Y3As79HdAWr5n/22.jpg" alt=""/>
                                
                             </figure>
                         </div>
